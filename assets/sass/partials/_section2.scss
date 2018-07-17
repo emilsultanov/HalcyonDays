@@ -1,0 +1,426 @@
+#section2{
+		.imgs1{
+			width: 100%;
+			height: 640px;
+			text-align: center;
+
+			.img1{
+				width: 360px;
+				height: 500px;
+				float: left;
+				margin-top: 40px;
+				margin-left: 45px;
+
+				.block1{
+					width: 360px;
+					height: 220px;
+					background: url('../images/portfolio-01.jpg') center center;
+					background-repeat: no-repeat; 
+					background-size: cover;
+				}
+
+				h2{
+					color: $color1;
+					margin-top: 40px;
+					font-size: 20px;
+				}
+
+				p{
+					color: $pcolor1;
+					margin-top: 30px;
+					width: 350px;
+					word-spacing: 2px;
+					line-height: 1.5;
+				}
+
+			}
+
+			.img2{
+				width: 360px;
+				height: 500px;
+				float: left;
+				margin-top: 40px;
+				margin-left: 45px;
+
+				.block2{
+					width: 360px;
+					height: 220px;
+					background: url('../images/portfolio-02.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+
+				h2{
+					color: $color1;
+					margin-top: 40px;
+					font-size: 20px;
+				}
+
+				p{
+					color: $pcolor1;
+					margin-top: 30px;
+					width: 350px;
+					word-spacing: 2px;
+					line-height: 1.5;
+				}
+			}
+
+			.img3{
+				width: 360px;
+				height: 500px;
+				float: left;
+				margin-top: 40px;
+				margin-left: 45px;
+
+				.block3{
+					width: 360px;
+					height: 220px;
+					background: url('../images/portfolio-03.jpg') center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+
+				h2{
+					color: $color1;
+					margin-top: 40px;
+					font-size: 20px;
+				}
+
+				p{
+					color: $pcolor1;
+					margin-top: 30px;
+					width: 350px;
+					word-spacing: 2px;
+					line-height: 1.5;
+				}
+			}
+		}
+
+		.passion{
+			width: 100%;
+			height: 215px;
+			background: #242830;
+			text-align: center;
+
+			button{
+				width: 260px;
+				height: 70px;
+				background: #242830;
+				color: white;
+				border: 1px solid white;
+				margin-top: 80px;
+				cursor: pointer;
+			}
+		}
+
+		.imgs2{
+			width: 100%;
+			height: 750px;
+			display: inline-block;
+			text-align: center;
+
+			#team{
+				color: $color1;
+				background: url('../images/h1-bg.png') center center;
+				background-repeat: no-repeat;
+				background-position-y: bottom;
+				margin-top: 95px;
+				padding-bottom: 30px;
+			}
+
+			.mainblock{
+				width: 1140px;
+				height: 690px;
+				margin: 30px auto;
+
+				.block1{
+					width: 360px;
+					height: 690px;
+					float: left;
+					text-align: center;
+
+					.jon{
+						width: 360px;
+						height: 240px;
+						background: url('../images/team-01.png') center center;
+						background-repeat: no-repeat;
+						background-size: contain;
+					}
+
+					#jon{
+						color: $color1;
+						margin-top: 40px;
+					}
+
+					p{
+						color: #ACB1B4;
+						width: 350px;
+						line-height: 1.2;
+						margin-top: 30px;
+						word-spacing: 2px;
+					}
+
+					a{
+						text-decoration: none;
+						color: black;
+						i{
+							margin-top: 50px;
+							font-size: 30px;
+							letter-spacing: 10px;
+							background: white;
+							width: 50px;
+							height: 50px;
+							line-height: 50px;
+						}
+					}
+
+					
+							
+				}
+
+				.block2{
+					width: 360px;
+					height: 690px;
+					float: left;
+					margin-left: 30px;
+
+					.cersei{
+						width: 360px;
+						height: 240px;
+						background: url('../images/team-02.png') center center;
+						background-repeat: no-repeat;
+						background-size: contain;
+					}
+
+					#cersei{
+						color: $color1;
+						margin-top: 40px;
+					}
+
+					p{
+						color: #ACB1B4;
+						width: 350px;
+						line-height: 1.2;
+						margin-top: 30px;
+						word-spacing: 2px;
+					}
+
+					a{
+						text-decoration: none;
+						color: black;
+						i{
+							margin-top: 50px;
+							font-size: 30px;
+							letter-spacing: 10px;
+							background: white;
+							width: 50px;
+							height: 50px;
+							line-height: 50px;
+						}
+					}
+
+				}
+
+				.block3{
+					width: 360px;
+					height: 690px;
+					float: left;
+					margin-left: 30px;
+
+					.jamie{
+						width: 360px;
+						height: 240px;
+						background: url('../images/team-03.png') center center;
+						background-repeat: no-repeat;
+						background-size: contain;
+					}
+
+					#jamie{
+						color: $color1;
+						margin-top: 40px;
+					}
+
+					p{
+						color: #ACB1B4;
+						width: 350px;
+						line-height: 1.2;
+						margin-top: 30px;
+						word-spacing: 2px;
+					}
+
+					a{
+						text-decoration: none;
+						color: black;
+						i{
+							margin-top: 50px;
+							font-size: 30px;
+							letter-spacing: 10px;
+							background: white;
+							width: 50px;
+							height: 50px;
+							line-height: 50px;
+						}
+					}
+
+				}
+			}
+		}
+
+		.parallax2{
+			width: 100%;
+			height: 440px;
+			background: url('../images/keyboard-bg.jpg') center center fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+
+			i{
+				color: white;
+				font-size: 30px;
+				margin-top: 130px;
+			}
+
+			h2{
+				color: white;
+				font-size: 20px;
+				margin-top: 20px;
+			}
+
+			input:first-child{
+				margin-top: 30px;
+				width: 310px;
+				height: 30px;
+				background: rgba(255, 255, 255, 0.1);
+				padding: 20px;
+				border: none;
+			}
+
+			input:last-child{
+				margin-top: 30px;
+				width: 100px;
+				height: 70px;
+				background: #4A938B;
+				color: white;
+				letter-spacing: 1px;
+				border: none;
+			}
+
+		}
+
+		.drop{
+			width: 100%;
+			height: 640px;
+			background: $background1;
+			text-align: center;
+			display: inline-block;
+
+			#drop{
+				color: $color1;
+				background: url('../images/h1-bg.png') center center;
+				background-repeat: no-repeat;
+				background-position-y: bottom;
+				margin-top:  55px;
+				padding-bottom: 30px;
+			}
+
+			.contain{
+				width: 1110px;
+				height: 200px;
+				margin: 30px auto;
+
+				.address{
+					width: 350px;
+					height: 200px;
+					background: white;
+					float: left;
+
+					i{
+						font-size: 30px;
+						margin-top: 30px;
+						color: $color1;
+					}
+
+					h2{
+						color: $maincolor;
+						margin-top: 20px;
+					}
+
+					p{
+						color: $pcolor1;
+						margin-top: 30px;
+					}
+				}
+
+				.phone{
+					width: 350px;
+					height: 200px;
+					background: white;
+					float: left;
+					margin-left: 30px;
+
+					i{
+						font-size: 30px;
+						margin-top: 30px;
+						color: $color1;
+					}
+
+					h2{
+						color: $maincolor;
+						margin-top: 20px;
+					}
+
+					p{
+						color: $pcolor1;
+						margin-top: 30px;
+					}
+				}
+
+				.email{
+					width: 350px;
+					height: 200px;
+					background: white;
+					float: left;
+					margin-left: 30px;
+
+					i{
+						font-size: 30px;
+						margin-top: 30px;
+						color: $color1;
+					}
+
+					h2{
+						color: $maincolor;
+						margin-top: 20px;
+					}
+
+					p{
+						margin-top: 30px;
+
+						a{
+							color: $pcolor1;
+
+							&:hover{
+								color: $maincolor;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+
+				a{
+					text-decoration: none;
+					color: black;
+					
+					i{
+						margin-top: 50px;
+						font-size: 30px;
+						letter-spacing: 10px;
+						background: white;
+						width: 50px;
+						height: 50px;
+						line-height: 50px;
+					}
+				}
+			}
+		}
+	}

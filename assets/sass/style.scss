@@ -1,0 +1,32 @@
+
+@import 'partials/var';
+@import 'partials/header';
+@import 'partials/section1';
+@import 'partials/section2';
+
+
+
+
+
+content{
+	
+
+	
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background: #242830;
+
+	a{
+		color: #939AA1;
+		text-decoration: none;
+		margin-left: 30px;
+		line-height: 80px;
+	}
+
+	h3{
+		color: white;
+	}
+}

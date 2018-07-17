@@ -1,0 +1,238 @@
+#section1{
+		article{
+			width: 100%;
+			height: 395px;
+			text-align: center;
+			background: $background1;
+			display: inline-block;
+
+			.same{
+				color: $color1;
+				background: url('../images/h1-bg.png') center center;
+				background-repeat: no-repeat;
+				background-position-y: bottom; 
+				margin-top: 95px;
+				padding-bottom: 30px;
+			}
+
+			p{
+				color: $pcolor;
+				margin-top: 55px;
+				line-height: 1.5;
+				width: 750px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.love{
+			height: 600px;
+			display: inline-block;
+			width: 100%;
+
+			.same{
+				color: $color1;
+				background: url('../images/h1-bg.png') center center;
+				background-repeat: no-repeat;
+				background-position-y: bottom; 
+				margin-top: 95px;
+				padding-bottom: 30px;
+				text-align: center;
+			}
+
+			.info{
+				width: 1200px;
+				height: 540px;
+				margin: 0px auto;
+				margin-top: 50px;
+
+				@for $i from 1 through 3{
+					.block-#{$i}{
+						width: 400px;
+						height: 540px;
+						float: left;
+					}
+				}
+
+				.block-1{
+					.comp{
+						width: 175px;
+						height: 175px;
+						margin: 0px auto;
+						text-align: center;
+
+						i{
+							font-size: 50px;
+							color: white;
+							line-height: 175px;
+							width: 175px;
+							border: none;
+							border-radius: 50%;
+							background: $maincolor;
+						}
+					}
+
+					h2{
+						color: $color1;
+						text-align: center;
+						margin-top: 30px;
+						font-style: bold;
+					}
+
+					p{
+						color: $pcolor;	
+						width: 390px;
+						text-align: center;
+						line-height: 1.2;
+						word-spacing: 3px;
+						font-size: 17px;
+						margin-top: 30px;
+
+					}
+				}
+
+				.block-2{
+					.web{
+						width: 175px;
+						height: 175px;
+						text-align: center;
+						margin: 0px auto;
+
+						i{
+							font-size: 50px;
+							color: white;
+							line-height: 175px;
+							width: 175px;
+							border: none;
+							border-radius: 50%;
+							background: $maincolor;	
+						}
+					}
+
+					h2{
+						color: $color1;
+						text-align: center;
+						margin-top: 30px;
+						font-style: bold;
+					}
+
+					p{
+						color: $pcolor;	
+						width: 390px;
+						text-align: center;
+						line-height: 1.2;
+						word-spacing: 3px;
+						font-size: 17px;
+						margin-top: 30px;
+					}
+				}
+
+				.block-3{
+					.heart{
+						width: 175px;
+						height: 175px;
+						text-align: center;
+						margin: 0px auto;
+
+						i{
+							font-size: 50px;
+							color: white;
+							line-height: 175px;
+							width: 175px;
+							border: none;
+							border-radius: 50%;
+							background: $maincolor;	
+						}
+					}
+
+					h2{
+						color: $color1;
+						text-align: center;
+						margin-top: 30px;
+						font-style: bold;
+					}
+
+					p{
+						color: $pcolor;	
+						width: 390px;
+						text-align: center;
+						line-height: 1.2;
+						word-spacing: 3px;
+						font-size: 17px;
+						margin-top: 30px;
+
+					}
+				}
+			}
+		}
+
+		.iphone{
+			width: 100%;
+			height: 650px;
+
+			.foto{
+				width: 630px;
+				height: 650px;
+				float: left;
+				background: url('../images/iphone-bg.png') 35px center;
+				background-repeat: no-repeat;
+				background-color: $background1;
+			}
+
+			.responsive{
+				width: 630px;
+				height: 650px;
+				float: left;
+				text-align: center;
+
+				h2{
+					color: $color1;
+					background: url('../images/h1-bg.png') center center;
+					background-repeat: no-repeat;
+					background-position-y: bottom;
+					margin-top: 95px;
+					padding-bottom: 30px;
+				}
+
+				p{
+					color: $pcolor;
+					margin-top: 50px;
+					line-height: 1.5;
+					width: 600px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+
+		.parallax1{
+			width: 100%;
+			height: 316px;
+			background: url('../images/plants-bg.jpg') center center fixed;
+			background-repeat: no-repeat;
+			text-align: center;
+			display: inline-block;
+
+			h1{
+				color: white;
+				 font-size: 40px;
+				margin-top: 90px;
+			}
+
+			p{
+				color: white;
+				font-size: 30px;
+				margin-top: 30px;
+			}
+
+			a{
+				text-decoration: none;
+
+				i{
+					font-size: 50px;
+					color: #38A898;
+					margin-top: 30px;
+				}
+			}
+		}
+	}
